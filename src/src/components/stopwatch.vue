@@ -140,4 +140,18 @@ table td{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+@media (max-width: 1000px) {
+  .center {
+    padding: 0;
+    width: 90%;
+    height: 20%;
+  }
+  .clock{
+    font-size: 750%;
+  }
+  button{
+    width: 20%;
+    height: 200%;
+  }
+}
 </style>
