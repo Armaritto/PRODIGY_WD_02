@@ -126,6 +126,7 @@ button:hover{
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(125, 111, 192, 0.6);
   border: rgba(241, 241, 241, 0.13);
+  cursor: pointer;
 }
 table{
   justify-content: center;
@@ -144,7 +145,7 @@ table td{
   .center {
     padding: 0;
     width: 90%;
-    height: 20%;
+    height: 30%;
   }
   .clock{
     font-size: 750%;
@@ -152,6 +153,8 @@ table td{
   button{
     width: 20%;
     height: 200%;
+    font-size: 150%;
+    padding: 0;
   }
 }
 </style>
